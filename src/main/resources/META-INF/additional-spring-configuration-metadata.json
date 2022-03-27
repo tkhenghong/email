@@ -1,0 +1,53 @@
+{
+  "properties": [
+    {
+      "name": "email.sender.host",
+      "type": "java.lang.String",
+      "description": "Host provider for the Email."
+    },
+    {
+      "name": "email.host.port",
+      "type": "java.lang.Integer",
+      "description": "Port number for Email host provider."
+    },
+    {
+      "name": "email.username",
+      "type": "java.lang.String",
+      "description": "Username of the email host provider is your provided email address."
+    },
+    {
+      "name": "email.password",
+      "type": "java.lang.String",
+      "description": "Password of the Email. But Google has enforced app specific password in recent times, so please generate app specific password in the Google Account."
+    },
+    {
+      "name": "email.transport.protocol",
+      "type": "java.lang.String",
+      "description": "Network Protocol for the Email host provider."
+    },
+    {
+      "name": "email.smtp.auth",
+      "type": "java.lang.String",
+      "description": "Enable authentication for the Email SMTP."
+    },
+    {
+      "name": "email.smtp.starttls.enable",
+      "type": "java.lang.Boolean",
+      "description": "Enable STMP Start TLS for the Email host provider."
+    },
+    {
+      "name": "email.debug",
+      "type": "java.lang.Boolean",
+      "description": "Enable debug for the Email service."
+    },
+    {
+      "name": "email.send.sms.to.email",
+      "type": "java.lang.String",
+      "description": "Allow send SMS content to email. For debug purpose only."
+    },
+    {
+      "name": "email.send.sms.to.email.address",
+      "type": "java.lang.String",
+      "description": "Email address to be used for see SMS content. For debug purpose only."
+    }
+  ] }
